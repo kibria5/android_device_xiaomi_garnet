@@ -191,6 +191,7 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=142671872
 vendor.gralloc.disable_ubwc=0
 debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 
 # HWUI
