@@ -25,8 +25,12 @@ persist.vendor.data.mode=concurrent
 persist.vendor.radio.add_power_save=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
-persist.vendor.vonr_setting_support=1
 persist.sys.radio.force_lte_ca=true
+
+# Radio VoNR Calling
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
 
 # OIS fix
 persist.camera.gyro.android=20
