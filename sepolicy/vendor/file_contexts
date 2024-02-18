@@ -74,6 +74,7 @@
 /sys/class/thermal/thermal_message/wifi_limit u:object_r:sys_thermal_wifi_limit:s0
 /sys/devices/virtual/thermal/thermal_message/thermal_max_brightness u:object_r:sys_thermal_max_brightness:s0
 /sys/devices/virtual/thermal/thermal_message/wifi_limit u:object_r:sys_thermal_wifi_limit:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service-qti-sm7435   u:object_r:hal_power_default_exec:s0
 
 # Touchfeature
 /dev/xiaomi-touch u:object_r:touchfeature_device:s0
