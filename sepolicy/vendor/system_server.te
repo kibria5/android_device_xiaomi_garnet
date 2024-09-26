@@ -4,5 +4,17 @@ allow system_server vendor_sysfs_battery_supply:file { getattr open read };
 
 allow system_server vendor_sysfs_graphics:file rw_file_perms;
 
+# Allow system_server to write to audioserver_tmpfs
+allow system_server audioserver_tmpfs:file write;
+
+# Allow system_server to write to mediaextractor_tmpfs
+allow system_server mediaextractor_tmpfs:file write;
+
+# Allow system_server to write to mediaserver_tmpfs
+allow system_server mediaserver_tmpfs:file write;
+
+# Allow system_server to write to app_zygote_tmpfs
+allow system_server app_zygote_tmpfs:file write;
+
 # CachedAppOptimizer
 allow system_server zygote_tmpfs:file rw_file_perms;
