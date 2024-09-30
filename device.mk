@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+# libartpalette
+PRODUCT_HOST_PACKAGES += \
+    libartpalette
+
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUIGoogle  # For internal
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI  # For AOSP
