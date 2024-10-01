@@ -561,7 +561,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libhidlbase_shim \
     libinput_shim \
-    libgui_shim
+    libgui_shim \
+    libcodec2_shim
 
 # WiFi
 PRODUCT_PACKAGES += \
