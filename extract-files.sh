@@ -21,6 +21,8 @@ ANDROID_ROOT="${MY_DIR}/../../.."
 # Can still be used with broken XML files by using blob_fixup
 export TARGET_DISABLE_XML_FIXING=true
 
+export TARGET_ENABLE_CHECKELF=false
+
 HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
