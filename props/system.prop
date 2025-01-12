@@ -42,5 +42,9 @@ persist.camera.ois.video=1
 persist.vendor.camera.ois.enable=1
 persist.vendor.camera.ois.video=1
 
+# RKPD
+remote_provisioning.enable_rkpd=true
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
 # System Server
 persist.arm64.memtag.system_server=off
