@@ -1,0 +1,2 @@
+type qti-media, domain;
+allow qti-media media_data_file: file read;
