@@ -1,10 +1,10 @@
-# All unpinned blobs below are extracted from garnet V816.0.17.0.UNRMIXM - miui_GARNETGlobal_OS1.0.17.0.UNRMIXM
+# Unpinned blobs from OS2.0.4.0.VNRMIXM
 
 # ACDB
+vendor/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb
+vendor/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp
 vendor/etc/acdbdata/Mise/Mise_acdb_cal.acdb
 vendor/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp
-vendor/etc/acdbdata/Mise/foursemi/Mise_acdb_cal.acdb
-vendor/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml.qwsp
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd
@@ -68,8 +68,6 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 vendor/lib/rfsa/adsp/misound_res_spk_fs.bin
-vendor/lib/rfsa/adsp/misound_res_spk_power_game.bin
-vendor/lib/rfsa/adsp/misound_res_spk_power_video.bin
 
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
@@ -120,7 +118,6 @@ vendor/lib64/libkaraokepal.so
 vendor/lib64/liblx-ar_util.so
 vendor/lib64/liblx-osal.so
 vendor/lib64/libmcs.so
-vendor/lib64/libmispowerop.so
 vendor/lib64/libqtigefar.so
 vendor/lib64/libresampler.so
 vendor/lib64/libxlog.so
@@ -1728,8 +1725,8 @@ vendor/lib/hw/vulkan.adreno.so|d689916a992d2c61b04faf96d4b3a916fca9fab8
 vendor/lib64/hw/vulkan.adreno.so|32c66fba9177c917f1a119396322d93b28b0f8ce
 
 # Hotword enrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
