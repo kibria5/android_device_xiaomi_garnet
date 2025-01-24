@@ -243,6 +243,9 @@ ro.telephony.default_network=33,33
 # RCS
 persist.vendor.rcs.singlereg.feature=1
 
+# Sensors
+ro.vendor.sensors.xiaomi.udfps=true
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
