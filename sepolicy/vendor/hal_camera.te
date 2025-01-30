@@ -15,6 +15,7 @@ allow hal_camera_default sysfs:file read;
 allow hal_camera_default proc_meminfo:file read;
 allow hal_camera_default sysfs:file { open read };
 allow hal_camera_default system_data_file:dir { search };
+allow hal_camera_default sysfs:file { getattr };
 allow vendor_hal_camerapostproc_xiaomi platform_app:binder transfer;
 allow vendor_hal_camerapostproc_xiaomi platform_app:binder { call transfer };
 allow vendor_hal_camerapostproc_xiaomi platform_app:fd *;
