@@ -342,6 +342,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-V1-ndk_platform.vendor
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.xiaomi_sm7435
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default

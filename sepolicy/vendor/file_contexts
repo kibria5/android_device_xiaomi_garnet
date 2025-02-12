@@ -42,9 +42,14 @@
 # Data files
 /data/vendor/dolby(/.*)?   u:object_r:vendor_data_file:s0
 
+# livedisplay
+/vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.xiaomi_sm7435    u:object_r:hal_lineage_livedisplay_qti_exec:s0
+
 # Displayfeature
 /dev/mi_display/disp_feature u:object_r:vendor_displayfeature_device:s0
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)? u:object_r:vendor_sysfs_displayfeature:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display/anti_flicker          u:object_r:sysfs_anti_flicker:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display/hbm                   u:object_r:sysfs_hbm:s0
 
 # Dolby
 /vendor/bin/hw/dolbycodec2                                                            u:object_r:mediacodec_exec:s0

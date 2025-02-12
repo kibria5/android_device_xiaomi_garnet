@@ -203,6 +203,14 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Soong
+SOONG_CONFIG_NAMESPACES += xiaomiSm7435Vars
+SOONG_CONFIG_xiaomiSm7435Vars += \
+    livedisplay_support_anti_flicker \
+    livedisplay_support_sunlight_enhancement
+SOONG_CONFIG_xiaomiSm7435Vars_livedisplay_support_anti_flicker ?= true
+SOONG_CONFIG_xiaomiSm7435Vars_livedisplay_support_sunlight_enhancement ?= true
+
 # System properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/props/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
