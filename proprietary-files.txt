@@ -1376,7 +1376,7 @@ vendor/etc/mdss_dsi_n16_36_0d_0a_dsc_vid_mi.xml
 vendor/etc/mdss_dsi_n16_41_02_0c_dsc_vid_mi.xml
 vendor/etc/mdss_dsi_n16_42_02_0b_dsc_vid_mi.xml
 
-# Display HDR - from ingot-user 14 UKQ1.231121.127 127 release-keys
+# Display HDR - from ingot-user 14 UKQ1.240227.155-155-release-keys
 vendor/lib/libgame_enhance.so|01d389b40f5296c7bb5b19695e24edba5252bd15
 vendor/lib/libhdr_backlight_adapter.so|27a76877b0ef7c090c469b3784bce9d2ecc857d8
 vendor/lib/libhdr_tm.so|43a2f53d3c4728af2480b11c898ad4165364862f
@@ -1390,7 +1390,7 @@ vendor/lib/libhdrdynamicootf.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 
-# Display HWC - from ingot-user 14 UKQ1.231121.127 127 release-keys
+# Display HWC - from ingot-user 14 UKQ1.240227.155-155-release-keys
 vendor/bin/qdcmss|727147cbaf4d74f0eb38c534fda9beebdfec31f6
 vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
 vendor/lib/libbacklight-calib.so|271b4ceed571e1a56c62930247aad5e135a2a3af
@@ -1412,7 +1412,7 @@ vendor/lib64/libqdcm-mode-parser.so|341178dfb18e03b6fabff27a080fb96f15188942
 vendor/lib64/libsnapdragoncolor-manager.so|72291478bd56bada0fc3df3617e765b28ef54f66
 vendor/lib64/libsnapdragoncolor-qdcm.so|9f0bc72290618324e95cd9f4eca6987a6733bd06
 
-# Display SDM - from ingot-user 14 UKQ1.231121.127 127 release-keys
+# Display SDM - from ingot-user 14 UKQ1.240227.155-155-release-keys
 vendor/etc/display/DPU660.xml|b26dd73e361546d89bf3d7082a471703dc6ac2cb
 vendor/etc/display/DPU670.xml|e5131a60ceff29ca5eb561eec7eddadef1d0486f
 vendor/etc/display/DPU720.xml|4e54e8712d65773eb87867bf64a4cb98ea9bb8c3
@@ -1431,7 +1431,7 @@ vendor/lib/librcmask.so|5883dcee92a31b16ca90bb83ad5d570d3865011f
 vendor/lib/libsdm-color.so|5eb282765211758a3e84202831fdb6354b8f3434
 vendor/lib/libsdm-colormgr-algo.so|c991ad84acc127b745137c60be863077bc14ed38
 vendor/lib/libsdm-disp-vndapis.so|4447d3e765fd719994cc30a7339d1ff7d333ae67
-vendor/lib/libsdmextension.so|6ca925a64ad2c78639f9dfebf12a2cd7133462fa
+vendor/lib/libsdmextension.so|e10031ef2adca93c90af7f47670fa51d41aa6811
 vendor/lib/libtestutils.so|553f68210d26fe9d245bdae8d77d5afd6f469150
 vendor/lib/libtinyxml2_1.so|d46a4b98a33a171438fe51a60886b6f0f3a8bf45
 vendor/lib64/libdisplayqos.so|f5620aafca45f8f5c89e5af5d808bd20602a4654
@@ -1441,11 +1441,11 @@ vendor/lib64/librcmask.so|36919cfe71e1e6ab4e507f98dab320b7046d24c4
 vendor/lib64/libsdm-color.so|3ffdac82ec83cfcf0cfab32718a08500ec73e36d
 vendor/lib64/libsdm-colormgr-algo.so|0c922b88dc8f11a9c8dbe78daec337d4d5333087
 vendor/lib64/libsdm-disp-vndapis.so|169adaa522f75d622e76a1597c486eff4551c5a3
-vendor/lib64/libsdmextension.so|2dee5d4ced1c1e7fec52e156219fc9fec17ea6c2
+vendor/lib64/libsdmextension.so|08d321d3e0da2231a29e3ec92604dca48c8895e3
 vendor/lib64/libtestutils.so|61b98f252afde4eb7c674de870e7afb590c9bb2a
 vendor/lib64/libtinyxml2_1.so|ae0c9190fd54c18a6c28dfccdfd29655abcb08de
 
-# Display postprocessing - from ingot-user 14 UKQ1.231121.127 127 release-keys
+# Display postprocessing - from ingot-user 14 UKQ1.240227.155-155-release-keys
 vendor/bin/hw/vendor.display.color@1.0-service|9f37be517ad778857bfe94b78ba3fbf2e90e3967
 vendor/bin/ppd|37202ce410bb2bfd42133cd03cd3fd7ce9a063d8
 vendor/etc/init/vendor.display.color@1.0-service.rc|fc58968025ec9f09b4fedee0b9daecc6a56c8373
@@ -2168,42 +2168,42 @@ vendor/lib64/libpowercore.so
 vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 
-# QCC
-system_ext/app/QCC/QCC.apk
-system_ext/bin/qccsyshal@1.2-service
-system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
-system_ext/lib/libqcc.so
-system_ext/lib/libqcc_file_agent_sys.so
-system_ext/lib/libqccdme.so
-system_ext/lib/libqccfileservice.so
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.1.so
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.2.so
-system_ext/lib/vendor.qti.hardware.qccvndhal@1.0.so
-system_ext/lib/vendor.qti.qccvndhal_aidl-V1-ndk.so
-system_ext/lib64/libqcc.so
-system_ext/lib64/libqcc_file_agent_sys.so
-system_ext/lib64/libqccdme.so
-system_ext/lib64/libqccfileservice.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
-system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
-system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
-vendor/bin/qcc-trd
-vendor/etc/init/init.qdmastats.rc
-vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
-vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so
-vendor/lib/vendor.qti.hardware.qccsyshal@1.1.so
-vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
-vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
+# QCC - from ingot-user 14 UKQ1.240227.155-155-release-keys
+-system_ext/app/QCC/QCC.apk|d3cbc08cb41bb36ff705109c4c49eba6083a5807
+system_ext/bin/qccsyshal@1.2-service|1d3fa5feff11e463204d31927cfb659f707989e1
+system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc|7279d09cf4d6f594dbab5c288ec16101bd668a95
+system_ext/lib/libqcc.so|8b80af0d59660690fc9195ca7371e03c2362b77e
+system_ext/lib/libqcc_file_agent_sys.so|4d2585631445c27d29f5938d8207d55471a8d8a9
+system_ext/lib/libqccdme.so|d0edbd5f85be35d7eae31527357f1a6e0b4cf9f8
+system_ext/lib/libqccfileservice.so|a7765f743c845caff774238991efa189eb98eb5b
+system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so|80f9b43d8d76760aae4bcdf7fa1863a3ba545da1
+system_ext/lib/vendor.qti.hardware.qccsyshal@1.1.so|1b519e8f4de03ac3663ea93843da300e51cde4f2
+system_ext/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|6efa57ba208c376076cdccfed1368e9b48fa6ea4
+system_ext/lib/vendor.qti.hardware.qccsyshal@1.2.so|f947a9db665623b022e098f1a599f7ac90c0373d
+system_ext/lib/vendor.qti.hardware.qccvndhal@1.0.so|eade619defde0b4be034a39dc8124a36f6be479b
+system_ext/lib/vendor.qti.qccvndhal_aidl-V1-ndk.so|a5988d75af942234dece8f1c08778ad06d011814
+system_ext/lib64/libqcc.so|a9dbbaebc96295adb9f996268d540170e0ab9f25
+system_ext/lib64/libqcc_file_agent_sys.so|594caf0a2fba843dd34c87a7e4775cc1c25bc93a
+system_ext/lib64/libqccdme.so|c05eb3ae79142a0d7bef3664028560a257872c8d
+system_ext/lib64/libqccfileservice.so|8f46735705105dcd1237f45e311378512a844b4e
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so|196bce8c481180705cc04074af4fd8362f15f6d9
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so|cb060471bccda79a173bd26f58aea0e7162d65eb
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|9663f4512a1e33956a9a348ac19b139ddfe02ee6
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so|db1ea124c0f42fcc1a814d69308d4f9522012e1b
+system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so|15a47e8d6f3746e3cb3baa91577f206a1089edd5
+system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so|ffccfde321f48e390c5af8d546e1c7cdf23f9152
+vendor/bin/qcc-trd|146a8d4ba56aebee8056f988159358943dc148c9
+vendor/etc/init/init.qdmastats.rc|d7ddb87faaedd900f1756064fe756d50efed7ca9
+vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|9ea1d644a75ce5adc105e96ab0c4e7447f798909
+vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so|85eac46d2148e9c0e6ab98413af67f7cff88405d
+vendor/lib/vendor.qti.hardware.qccsyshal@1.1.so|7aee35addf200e9bca849cb03027950db56285ce
+vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|d33bd680a58fc09ba713ba5ab603ac0eadd6be38
+vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so|f4da1f260d83881b5712beb262691f69f7d258b1
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|459d506b20124520f5d650a7b30c9a490514a878
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|ef866bab2186db1b2c09477e36fef20945fa671e
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so|0677ebfe099cdaa6c3776d0bd5318044a4220918
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|304ce0a1571f218ba16d0812221e4b2fae52a6d9
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|bfddf0a295b391bc1ed7961d547e9b56e3aa1b9c
 
 # QCOM system daemon
 vendor/bin/qcom-system-daemon
