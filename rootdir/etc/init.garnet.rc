@@ -115,10 +115,10 @@ on property:sys.boot_completed=1
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.garnet.perf.sh
 
     # IRQ Tuning
-    # IRQ 218: msm_drm0 -> CPU 6
-    # IRQ 209: kgsl_3d0_irq -> CPU 7
-    write /proc/irq/209/smp_affinity_list 7
-    write /proc/irq/218/smp_affinity_list 6
+    # IRQ 223: msm_drm -> CPU 7
+    # IRQ 72: kgsl_3d0_irq -> CPU 6
+    write /proc/irq/223/smp_affinity_list 7
+    write /proc/irq/72/smp_affinity_list 6
 
     # Disable vblank IRQ immediately after turning off
     write /sys/module/drm/parameters/vblankoffdelay -1
