@@ -4,3 +4,5 @@ allow platform_app vendor_panel_info_prop:file read;
 allow platform_app vendor_camera_sensor_prop:file read;
 allow platform_app vendor_audio_prop:file read;
 allow platform_app vendor_audio_prop:file { open };
+allow platform_app vendor_camera_p3enable_prop:file { read };
+allow platform_app vendor_audio_prop:file { getattr };
