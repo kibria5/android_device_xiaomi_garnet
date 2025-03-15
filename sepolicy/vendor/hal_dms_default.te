@@ -15,3 +15,5 @@ allow hal_dms_default init:unix_stream_socket connectto;
 
 allow hal_dms_default property_socket:sock_file { write };
 set_prop(hal_dms_default, vendor_audio_prop);
+
+allow hal_dms_default vendor_audio_prop:property_service set;
