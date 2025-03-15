@@ -1,3 +1,4 @@
 ro.camera.req.fmq.                  u:object_r:exported_default_prop:s0
 ro.camera.res.fmq.                  u:object_r:exported_default_prop:s0
 persist.vendor.audio.scenario       u:object_r:exported_default_prop:s0
+ro.hardware.chipname                u:object_r:exported_default_prop:s0
