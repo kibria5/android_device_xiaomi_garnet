@@ -119,7 +119,11 @@ function blob_fixup() {
         vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy)
             [ "$2" = "" ] && return 0
             grep -q "setsockopt: 1" "${2}" || echo "setsockopt: 1" >> "${2}"
-            ;;  
+            ;; 
+        vendor/lib64/libqcrilNr.so|vendor/lib64/libril-db.so)
+            [ "$2" = "" ] && return 0
+            sed -i 's/persist\.vendor\.radio\.poweron_opt/persist.vendor.radio.poweron_ign/g' "${2}"
+            ;;   
         *)
             return 1
             ;;
