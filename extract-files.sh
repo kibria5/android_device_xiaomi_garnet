@@ -123,7 +123,11 @@ function blob_fixup() {
         vendor/lib64/libqcrilNr.so|vendor/lib64/libril-db.so)
             [ "$2" = "" ] && return 0
             sed -i 's/persist\.vendor\.radio\.poweron_opt/persist.vendor.radio.poweron_ign/g' "${2}"
-            ;;   
+            ;;
+        system_ext/priv-app/QtiTelephony/QtiTelephony.apk)
+            [ "$2" = "" ] && return 0
+            apktool_patch "${2}" "$MY_DIR/patches"
+            ;;
         *)
             return 1
             ;;
